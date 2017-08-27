@@ -1,0 +1,24 @@
+<ion-header>
+ <ion-navbar>
+    <ion-title>Home Page</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="goToProfile()">
+        <ion-icon name="person"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding style="background-image: url('../assets/image/igbo.jpg');" >
+<div text-center>
+    <img src = "../assets/image/logo.jpg" style="border-radius: 500px;">
+    <h2 color="primary">Tradition</h2>
+  </div>
+<button ion-button block color="primary" (click)="goToCreate()">
+Create a new Event
+</button>
+<button ion-button block color="primary" (click)="goToList()">
+See your events
+</button>
+  
+</ion-content>
